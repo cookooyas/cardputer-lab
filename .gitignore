@@ -1,0 +1,19 @@
+# Arduino compiled binaries
+*.bin
+*.elf
+*.map
+*.hex
+
+# Build caches
+build/
+.pio/
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+
+# Local secrets
+.env
+.env.*
+secrets.py
