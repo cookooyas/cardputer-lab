@@ -1,19 +1,25 @@
-# Arduino compiled binaries
+# Arduino
+/arduino/libraries/
+**/secrets.h
 *.bin
 *.elf
-*.map
 *.hex
-
-# Build caches
-build/
-.pio/
-.vscode/
+*.map
 
 # Python
+.venv/
+venv/
 __pycache__/
-*.pyc
+*.py[cod]
 
-# Local secrets
+# PyInstaller
+dist/
+build/
+*.spec
+*.exe
+
+# Local configuration
 .env
 .env.*
-secrets.py
+!.env.example
+*.log
